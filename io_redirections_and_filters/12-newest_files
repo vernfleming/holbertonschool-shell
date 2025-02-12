@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt -I '*~' | head -n 10
+ls -lt --ignore='*~' | head -n 10
