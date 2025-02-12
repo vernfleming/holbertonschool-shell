@@ -1,2 +1,2 @@
 #!/bin/bash
-cat list_1 | sort --ignore-case list_1 | uniq -u list_2
+sort --ignore-case list_1 | uniq -u > list_2
